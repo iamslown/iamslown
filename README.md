@@ -1,16 +1,25 @@
-## Hi there 👋
+```ts
+export class Info {
 
-<!--
-**iamslown/iamslown** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+  name: string = 'IAM SLOWN'
+  age: number = 17
+  nationality: string[] = ['Poland']
+  languages: Record<string, string>[] = [{ 'English': 'A2' }, { 'Poland': 'native' }]
+  occupation: string = 'Web Developer and Designer, Student'
+  freetime: string[] = ['Gym', 'Reading', 'Hanging out with friends']
 
-Here are some ideas to get you started:
+}
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+export class Programming {
+
+  languages: string[] = ['TypeScript', 'JavaScript', 'PHP']
+  stylesheets: string[] = ['CSS', 'SASS', 'SCSS', 'Stylus']
+  frameworks: string[] = ['Vue', 'Svelte', 'React']
+  runtimes: string[] = ['Deno', 'Node']
+  databases: string[] = ['MySQL', 'RethinkDB', 'Mongo']
+  learning: string[] = ['Rust', 'Go', 'Angular']
+  projects: string[] = ['nest.land', 'verto.exchange', 'Agrigo.farm/Cubilog', 'BetterAntispam', 'BloomAlts', 'Evolution X']
+
+}
+
+```
